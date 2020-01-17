@@ -47,7 +47,7 @@ class App extends Component {
         <TabNavigator>
           <TabNavigator.Item
             selected={this.state.selectedTab === 'tiolet'}
-            title="厕所在哪"
+            title="百度"
             selectedTitleStyle={{color:'#47caff'}}
             renderIcon={() => <Icon name='street-view' size={25} color='#ccc' />}
             renderSelectedIcon={() => <Icon name='street-view' size={25} color='#47caff' />}

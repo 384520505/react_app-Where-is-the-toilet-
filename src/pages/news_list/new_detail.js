@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     load_view_container:{
         flex:1,
         justifyContent:'flex-start',
-        alignItems:'center'
+        alignItems:'center',
     },
     loading_img:{
         marginTop:-200,

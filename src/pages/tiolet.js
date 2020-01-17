@@ -37,7 +37,8 @@ class Tiolet extends Component {
                 <WebView   
                     onError={this.loadError}
                     startInLoadingState={true}
-                    source={{ uri: 'http://localhost:8081/src/html/toiletMap/toiletMap1.html' }}
+                    // source={{ uri: 'http://localhost:8081/src/html/toiletMap/toiletMap1.html' }}
+                    source={{ uri: 'https://baidu.com' }}
                     renderLoading={this.loadView}
                 />
             </View>
@@ -50,7 +51,8 @@ const styles = StyleSheet.create({
     load_view_container:{
         flex:1,
         justifyContent:'flex-start',
-        alignItems:'center'
+        alignItems:'center',
+        backgroundColor:'white',
     },
     loading_img:{
         marginTop:-200,

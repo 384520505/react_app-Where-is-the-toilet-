@@ -194,7 +194,7 @@
             doSearch([data.position.lng, data.position.lat]);
         };
         var locationError = function () {
-            alert('定位失败，请在手机上开启定位:设置->隐私->定位服务->找厕所->使用应用期间');
+            alert('定位失败，请在手机上开启定位!');
         };
 
         map.plugin('AMap.Geolocation', function () {
